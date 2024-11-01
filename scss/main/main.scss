@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'MuseoSansCyrl-900';
+    src: url('../../font/MuseoSansCyrl-900.ttf');
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'MuseoSansCyrl-700';
+    src: url('../../font/MuseoSansCyrl-700.ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'MuseoSansCyrl-500';
+    src: url('../../font/MuseoSansCyrl-500.ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'MuseoSansCyrl-300';
+    src: url('../../font/MuseoSansCyrl-300.ttf');
+    font-weight: 300;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'MuseoSansCyrl-500';
+}
+html {
+
+    @media (max-width: 1920px) {
+        position: absolute;
+        width: 100%;
+    }
+}
+body {
+    overflow-x: hidden;
+
+    &::-webkit-scrollbar {
+        width: 10px;
+        background: #E6EEEE;
+        border-radius: 3px;
+    }
+    &::-webkit-scrollbar-thumb {
+        background: #80AAA9;
+        border-radius: 3px;
+    }
+}
+
+.main-container {
+    margin: 0 auto;
+    min-width: 1920px;
+    max-width: 1920px;
+    overflow-x: hidden;
+
+    @media (max-width: 1920px) {
+        position: absolute;
+    }
+}

@@ -1,0 +1,18 @@
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 1090;
+
+    &__content {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        max-width: 1920px;
+        margin: 0 auto;
+        padding: 0 170px 0 200px;
+    }
+}

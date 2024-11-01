@@ -1,0 +1,27 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  z-index: 1090;
+}
+
+.navbar__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 170px 0 200px;
+}
+/*# sourceMappingURL=navbar.css.map */
